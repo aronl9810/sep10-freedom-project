@@ -15,32 +15,28 @@
     <body>
         
         <!--Navbar-->
-      <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            World of Animation
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Test</a>
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Test</a>
+                <a class="nav-link" href="#">Features</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Test</a>
+                <a class="nav-link" href="#">Pricing</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Tesy</a>
+                <a class="nav-link disabled" href="#">Disabled</a>
               </li>
             </ul>
           </div>
-        </div>
-      </nav>
+        </nav>
         
         <!--Topic-->
         
@@ -58,8 +54,22 @@
             </div>
             <div class = "container container-border">
               <h2><strong>But what if...</strong></h2>
-              <p>it didn't have to be this way? Animation using paper could be very tiring. In fact you would have to literally create doezens of pages and what if those pages get lost. Literally part of your animation would be gone and you would be forced to draw it again. Plus if you need to record audio you would have to do it live. </p>
+              <p>it didn't have to be this way? Animation using paper could be very tiring. In fact you would have to literally create doezens of pages and what if those pages get lost. Literally part of your animation would be gone and you would be forced to draw it again. Plus if you need to record audio you would have to do it live.</p>
+              <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">The solution?</a>
+              <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasExampleLabel">SOFTWARE PROGRAMS!</h5>
+                  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <div class = "spacing">
+                    AHOY MUELLER! IT IS ME, MR KRABS! LISTEN HERE ME BOY! TODAY WE ARE LEARNING LIT'RALLY SEP10!
+                  </div>
+                </div>
+              </div>
             </div>
         </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+      <script src="script.js"></script>
     </body>
 </html>

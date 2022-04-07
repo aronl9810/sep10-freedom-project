@@ -29,6 +29,10 @@ strong {
     border-style:solid;
 }
 
+.container {
+    padding:10px;
+}
+
 /*Animation*/
 @keyframes movingtext{
     0%{
