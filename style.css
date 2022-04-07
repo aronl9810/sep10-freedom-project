@@ -5,11 +5,12 @@ body {
 .customh1 {
     text-align:center;
     font-size:200px;
+    color:white;
 }
 
 .topic {
     border-style:solid;
-    background:lightblue;
+    background:black;
     padding:200px;
 }
 
@@ -27,6 +28,7 @@ strong {
 
 .container-border{
     border-style:solid;
+    margin-bottom:20px;
 }
 
 .container {
