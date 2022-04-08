@@ -9,6 +9,7 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" />
         <link href="style.css" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+        <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
         
         <title>Animation</title>
     </head>
@@ -129,12 +130,242 @@
                   </div>
                   <div class="modal-footer">
                     <a href = "https://getbootstrap.com/docs/5.1/getting-started/introduction/" target = "blank"><button type="button" class="btn btn-secondary">Bootstrap documents</button></a>
-                    <button type="button" class="btn btn-primary">I see...but can you show me an example?</button>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#fourth">I see...but can you show me an example?</button>
                   </div>
                 </div>
               </div>
             </div>
             
+            <!--Fourth sequence-->
+            
+            <div class="modal fade" id="fourth" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">The Journey to my fixes</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  
+                  <!--A-frame scene-->
+                  <div class="modal-body">
+                      <div id="myEmbeddedScene">
+                        <a-scene embedded>
+                          <a-assets>
+                              <img id = "sky" src = "assets/back.jpeg">
+                          </a-assets>
+                          <a-sky src = "#sky"></a-sky>
+                          <a-entity rotation="0 45 45" animation="property: rotation; to: 0 -180 -180; loop: true; dur: 10000">
+                            <a-box 
+                            position="0 1.5 -2" 
+                            multisrc="srcs:assets/1.jpeg,assets/2.jpeg,assets/3.jpeg,assets/4.jpg,assets/5.jpeg,assets/6.jpeg"
+                            rotation = "0 45 45">
+                            </a-box>
+                          </a-entity>
+                          
+                          <a-entity rotation="0 45 45" animation="property: rotation; to: 0 180 180; loop: true; dur: 10000">
+                            <a-box 
+                            position="5 3 10" 
+                            multisrc="srcs:assets/1.jpeg,assets/2.jpeg,assets/3.jpeg,assets/4.jpg,assets/5.jpeg,assets/6.jpeg"
+                            rotation = "0 90 110">
+                            </a-box>
+                          </a-entity>
+                          
+                          <a-entity rotation="0 45 45" animation="property: rotation; to: 0 -180 -180; loop: true; dur: 10000">
+                            <a-box 
+                            position="-4 3 6" 
+                            multisrc="srcs:assets/1.jpeg,assets/2.jpeg,assets/3.jpeg,assets/4.jpg,assets/5.jpeg,assets/6.jpeg"
+                            rotation = "0 45 45">
+                            </a-box>
+                          </a-entity>
+                          
+                          <a-entity rotation="0 45 45" animation="property: rotation; to: 0 180 180; loop: true; dur: 10000">
+                            <a-box 
+                            position="3 -6 -7" 
+                            multisrc="srcs:assets/1.jpeg,assets/2.jpeg,assets/3.jpeg,assets/4.jpg,assets/5.jpeg,assets/6.jpeg"
+                            rotation = "0 45 45">
+                            </a-box>
+                          </a-entity>
+                          
+                          <a-entity rotation="0 45 45" animation="property: rotation; to: 0 -180 -180; loop: true; dur: 10000">
+                            <a-box 
+                            position="8 4 -10" 
+                            multisrc="srcs:assets/1.jpeg,assets/2.jpeg,assets/3.jpeg,assets/4.jpg,assets/5.jpeg,assets/6.jpeg"
+                            rotation = "0 45 45">
+                            </a-box>
+                          </a-entity>
+                          
+                          <a-entity rotation="0 45 45" animation="property: rotation; to: 0 180 180; loop: true; dur: 10000">
+                            <a-box 
+                            position="1 1 1" 
+                            multisrc="srcs:assets/1.jpeg,assets/2.jpeg,assets/3.jpeg,assets/4.jpg,assets/5.jpeg,assets/6.jpeg"
+                            rotation = "0 45 45">
+                            </a-box>
+                          </a-entity>
+                          
+                          <a-entity rotation="0 45 45" animation="property: rotation; to: 0 -180 -180; loop: true; dur: 10000">
+                            <a-box 
+                            position="4 2 -4" 
+                            multisrc="srcs:assets/1.jpeg,assets/2.jpeg,assets/3.jpeg,assets/4.jpg,assets/5.jpeg,assets/6.jpeg"
+                            rotation = "0 45 45">
+                            </a-box>
+                          </a-entity>
+                          
+                          <a-entity rotation="0 45 45" animation="property: rotation; to: 0 180 180; loop: true; dur: 10000">
+                            <a-box 
+                            position="1 2 8" 
+                            multisrc="srcs:assets/1.jpeg,assets/2.jpeg,assets/3.jpeg,assets/4.jpg,assets/5.jpeg,assets/6.jpeg"
+                            rotation = "0 45 45">
+                            </a-box>
+                          </a-entity>
+                          
+                          <a-entity rotation="0 45 45" animation="property: rotation; to: 0 -180 -180; loop: true; dur: 10000">
+                            <a-box 
+                            position="4 6 9" 
+                            multisrc="srcs:assets/1.jpeg,assets/2.jpeg,assets/3.jpeg,assets/4.jpg,assets/5.jpeg,assets/6.jpeg"
+                            rotation = "0 45 45">
+                            </a-box>
+                          </a-entity>
+                          
+                          <a-entity rotation="0 45 45" animation="property: rotation; to: 0 180 180; loop: true; dur: 10000">
+                            <a-box 
+                            position="6 6 2" 
+                            multisrc="srcs:assets/1.jpeg,assets/2.jpeg,assets/3.jpeg,assets/4.jpg,assets/5.jpeg,assets/6.jpeg"
+                            rotation = "0 45 45">
+                            </a-box>
+                          </a-entity>
+                          
+                          <a-entity rotation="0 45 45" animation="property: rotation; to: 0 -180 -180; loop: true; dur: 10000">
+                            <a-box 
+                            position="6 8 4" 
+                            multisrc="srcs:assets/1.jpeg,assets/2.jpeg,assets/3.jpeg,assets/4.jpg,assets/5.jpeg,assets/6.jpeg"
+                            rotation = "0 45 45">
+                            </a-box>
+                          </a-entity>
+                          
+                          <a-entity rotation="0 45 45" animation="property: rotation; to: 0 180 180; loop: true; dur: 10000">
+                            <a-box 
+                            position="4 2 5" 
+                            multisrc="srcs:assets/1.jpeg,assets/2.jpeg,assets/3.jpeg,assets/4.jpg,assets/5.jpeg,assets/6.jpeg"
+                            rotation = "0 45 45">
+                            </a-box>
+                          </a-entity>
+                          
+                          <a-entity rotation="0 45 45" animation="property: rotation; to: 0 -180 -180; loop: true; dur: 10000">
+                            <a-box 
+                            position="4 2 9" 
+                            multisrc="srcs:assets/1.jpeg,assets/2.jpeg,assets/3.jpeg,assets/4.jpg,assets/5.jpeg,assets/6.jpeg"
+                            rotation = "0 45 45">
+                            </a-box>
+                          </a-entity>
+                          
+                          <a-entity rotation="0 45 45" animation="property: rotation; to: 0 180 180; loop: true; dur: 10000">
+                            <a-box 
+                            position="3 2 7" 
+                            multisrc="srcs:assets/1.jpeg,assets/2.jpeg,assets/3.jpeg,assets/4.jpg,assets/5.jpeg,assets/6.jpeg"
+                            rotation = "0 45 45">
+                            </a-box>
+                          </a-entity>
+                          
+                          <a-entity rotation="0 45 45" animation="property: rotation; to: 0 -180 -180; loop: true; dur: 10000">
+                            <a-box 
+                            position="9 0 1" 
+                            multisrc="srcs:assets/1.jpeg,assets/2.jpeg,assets/3.jpeg,assets/4.jpg,assets/5.jpeg,assets/6.jpeg"
+                            rotation = "0 45 45">
+                            </a-box>
+                          </a-entity>
+                          
+                          <a-entity rotation="0 45 45" animation="property: rotation; to: 0 180 180; loop: true; dur: 10000">
+                            <a-box 
+                            position="-8 -4 0" 
+                            multisrc="srcs:assets/1.jpeg,assets/2.jpeg,assets/3.jpeg,assets/4.jpg,assets/5.jpeg,assets/6.jpeg"
+                            rotation = "0 45 45">
+                            </a-box>
+                          </a-entity>
+                          
+                          <a-entity rotation="0 45 45" animation="property: rotation; to: 0 -180 -180; loop: true; dur: 10000">
+                            <a-box 
+                            position="-5 -3 -5" 
+                            multisrc="srcs:assets/1.jpeg,assets/2.jpeg,assets/3.jpeg,assets/4.jpg,assets/5.jpeg,assets/6.jpeg"
+                            rotation = "0 45 45">
+                            </a-box>
+                          </a-entity>
+                          
+                          <a-entity rotation="0 45 45" animation="property: rotation; to: 0 180 180; loop: true; dur: 10000">
+                            <a-box 
+                            position="-6 -8 -9" 
+                            multisrc="srcs:assets/1.jpeg,assets/2.jpeg,assets/3.jpeg,assets/4.jpg,assets/5.jpeg,assets/6.jpeg"
+                            rotation = "0 45 45">
+                            </a-box>
+                          </a-entity>
+                          
+                          <a-entity rotation="0 45 45" animation="property: rotation; to: 0 -180 -180; loop: true; dur: 10000">
+                            <a-box 
+                            position="-8 0 -2" 
+                            multisrc="srcs:assets/1.jpeg,assets/2.jpeg,assets/3.jpeg,assets/4.jpg,assets/5.jpeg,assets/6.jpeg"
+                            rotation = "0 45 45">
+                            </a-box>
+                          </a-entity>
+                          
+                          <a-entity rotation="0 45 45" animation="property: rotation; to: 0 180 180; loop: true; dur: 10000">
+                            <a-box 
+                            position="-5 -9 -1" 
+                            multisrc="srcs:assets/1.jpeg,assets/2.jpeg,assets/3.jpeg,assets/4.jpg,assets/5.jpeg,assets/6.jpeg"
+                            rotation = "0 45 45">
+                            </a-box>
+                          </a-entity>
+                          
+                          <a-entity rotation="0 45 45" animation="property: rotation; to: 0 -180 -180; loop: true; dur: 10000">
+                            <a-box 
+                            position="-6 0 -7" 
+                            multisrc="srcs:assets/1.jpeg,assets/2.jpeg,assets/3.jpeg,assets/4.jpg,assets/5.jpeg,assets/6.jpeg"
+                            rotation = "0 45 45">
+                            </a-box>
+                          </a-entity>
+                          
+                          <a-entity rotation="0 45 45" animation="property: rotation; to: 0 180 180; loop: true; dur: 10000">
+                            <a-box 
+                            position="-9 -3 -8" 
+                            multisrc="srcs:assets/1.jpeg,assets/2.jpeg,assets/3.jpeg,assets/4.jpg,assets/5.jpeg,assets/6.jpeg"
+                            rotation = "0 45 45">
+                            </a-box>
+                          </a-entity>
+                          
+                          <a-entity rotation="0 45 45" animation="property: rotation; to: 0 -180 -180; loop: true; dur: 10000">
+                            <a-box 
+                            position="-7 -7 -6" 
+                            multisrc="srcs:assets/1.jpeg,assets/2.jpeg,assets/3.jpeg,assets/4.jpg,assets/5.jpeg,assets/6.jpeg"
+                            rotation = "0 45 45">
+                            </a-box>
+                          </a-entity>
+                          
+                          <a-entity rotation="0 45 45" animation="property: rotation; to: 0 180 180; loop: true; dur: 10000">
+                            <a-box 
+                            position="-2 -7 -6" 
+                            multisrc="srcs:assets/1.jpeg,assets/2.jpeg,assets/3.jpeg,assets/4.jpg,assets/5.jpeg,assets/6.jpeg"
+                            rotation = "0 45 45">
+                            </a-box>
+                          </a-entity>
+                          
+                          <a-entity rotation="0 45 45" animation="property: rotation; to: 0 -180 -180; loop: true; dur: 10000">
+                            <a-box 
+                            position="0 -4 -8" 
+                            multisrc="srcs:assets/1.jpeg,assets/2.jpeg,assets/3.jpeg,assets/4.jpg,assets/5.jpeg,assets/6.jpeg"
+                            rotation = "0 45 45">
+                            </a-box>
+                          </a-entity>
+                          
+                        </a-scene>
+                      </div>
+                  </div>
+                  
+                  
+                  <div class="modal-footer">
+                    <a href = "https://github.com/aronl9810/mfwdiceworld" target = "blank"><button type="button" class="btn btn-secondary">See github repo</button></a>
+                    <button type="button" class="btn btn-primary">POG!</button>
+                  </div>
+                </div>
+              </div>
+            </div>
             
           </div>
         </div>

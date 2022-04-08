@@ -62,4 +62,11 @@ strong {
     }
 }
 
+/*A-frame*/
+
+a-scene {
+  height: 300px;
+  width: 300px;
+}
+
 /*Responsive Web Design*/
