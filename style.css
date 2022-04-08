@@ -35,6 +35,8 @@ strong {
 .container-border{
     border-style:solid;
     margin-bottom:20px;
+    background:white;
+    border-color:white;
 }
 
 .container {
