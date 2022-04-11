@@ -43,6 +43,12 @@ strong {
     padding:10px;
 }
 
+.app {
+    border-style:solid;
+    background:orange;
+    padding:120px;
+}
+
 /*Animation*/
 @keyframes movingtext{
     0%{
