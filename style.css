@@ -43,10 +43,15 @@ strong {
     padding:10px;
 }
 
-.app {
+.apps {
     border-style:solid;
     background:orange;
     padding:120px;
+}
+
+.center{
+    text-align:center;
+    display:block;
 }
 
 /*Animation*/
