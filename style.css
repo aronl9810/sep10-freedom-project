@@ -59,6 +59,11 @@ strong {
     margin-left:100px;
 }
 
+.offcanvas-body , .offcanvas-header{
+    background:black;
+    color:white;
+}
+
 /*Animation*/
 @keyframes movingtext{
     0%{
