@@ -54,6 +54,11 @@ strong {
     display:block;
 }
 
+.card {
+    padding:10px;
+    margin-left:100px;
+}
+
 /*Animation*/
 @keyframes movingtext{
     0%{
