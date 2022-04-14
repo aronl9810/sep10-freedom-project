@@ -18,6 +18,7 @@ body {
     border-style:solid;
     background:lightblue;
     padding:120px;
+    text-align:center;
 }
 
 strong {
@@ -83,6 +84,15 @@ strong {
     }
 }
 
+.whatif {
+    font-size:20px;
+    text-align:center;
+}
+
+.bodyclass {
+    font-size:15px;
+}
+
 /*A-frame*/
 
 a-scene {
@@ -100,6 +110,10 @@ a-scene {
     .container-border{
         font-size:20px;
     }
+ 
+    .whatif {
+        font-size:20px;
+    }  
 }
 
 @media (min-width: 1200px) {
@@ -109,5 +123,13 @@ a-scene {
     
     .container-border{
         font-size:25px;
+    }
+    
+    .whatif {
+        font-size:25px;
+    }
+    
+    .bodyclass {
+        font-size:20px;
     }
 }
