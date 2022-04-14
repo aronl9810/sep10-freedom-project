@@ -96,8 +96,18 @@ a-scene {
     .customh1 {
         font-size:100px;
     }
+    
+    .container-border{
+        font-size:20px;
+    }
+}
 
 @media (min-width: 1200px) {
     .customh1 {
         font-size:200px;
     }
+    
+    .container-border{
+        font-size:25px;
+    }
+}
