@@ -96,22 +96,8 @@ a-scene {
     .customh1 {
         font-size:100px;
     }
-    .card {
-        padding:5px;
-        margin-left:150px;
-    }
-    
-    .card-title , .card-text{
-        font-size:10px;
-    }
-}
 
 @media (min-width: 1200px) {
     .customh1 {
         font-size:200px;
     }
-    .card {
-        padding:10px;
-        margin-left:100px;
-    }
-}
