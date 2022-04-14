@@ -94,11 +94,11 @@ a-scene {
 
 @media (min-width: 768px) {
     .customh1 {
-        font-size:80px;
+        font-size:100px;
     }
     .card {
-    padding:0px;
-    margin-left:0px;
+        padding:5px;
+        margin-left:150px;
     }
     
     .card-title , .card-text{
@@ -108,10 +108,10 @@ a-scene {
 
 @media (min-width: 1200px) {
     .customh1 {
-        font-size:150px;
+        font-size:200px;
     }
     .card {
-    padding:10px;
-    margin-left:100px;
+        padding:10px;
+        margin-left:100px;
     }
 }
