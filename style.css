@@ -5,16 +5,15 @@ body {
 .customh1 {
     text-align:justify;
     font-size:60px;
-    color:white;
+    color:black;
 }
 
 /*credit to https://www.sliderrevolution.com/resources/css-animated-background/*/
 .topic {
     border-style:solid;
-    background:linear-gradient(-90deg, #FF5733, #FFBD33, #DBFF33, #75FF33, #33FF57, #33FFBD);
-    background-size: 400% 400%;
-    animation:gradient 20s ease infinite;
-    padding:200px;
+    padding:50px;
+    background:url(img/funny.gif);
+    background-size: cover;
 }
 
 .missuemfix {
@@ -31,7 +30,9 @@ strong {
 
 .context {
     border-style:solid;
-    background:lightgreen;
+    background:linear-gradient(-90deg, #FF5733, #FFBD33, #DBFF33, #75FF33, #33FF57, #33FFBD);
+    background-size: 400% 400%;
+    animation:gradient 20s ease infinite;
 }
 
 .container-border{
@@ -48,7 +49,6 @@ strong {
 .apps {
     border-style:solid;
     background:orange;
-    padding:120px;
 }
 
 .center{
@@ -152,6 +152,14 @@ a-scene {
     }
     
     .missuemfix {
+        padding:120px;
+    }
+    
+    .topic {
+        padding:200px;
+    }
+    
+    .apps{
         padding:120px;
     }
 }
