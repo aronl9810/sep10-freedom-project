@@ -8,16 +8,18 @@ body {
     color:white;
 }
 
+/*credit to https://www.sliderrevolution.com/resources/css-animated-background/*/
 .topic {
     border-style:solid;
-    background:black;
+    background:linear-gradient(-90deg, #FF5733, #FFBD33, #DBFF33, #75FF33, #33FF57, #33FFBD);
+    background-size: 400% 400%;
+    animation:gradient 20s ease infinite;
     padding:200px;
 }
 
 .missuemfix {
     border-style:solid;
     background:lightblue;
-    padding:120px;
     text-align:center;
 }
 
@@ -30,7 +32,6 @@ strong {
 .context {
     border-style:solid;
     background:lightgreen;
-    padding:120px;
 }
 
 .container-border{
@@ -65,7 +66,16 @@ strong {
     color:white;
 }
 
-/*Animation*/
+.whatif {
+    font-size:20px;
+    text-align:center;
+}
+
+.bodyclass {
+    font-size:15px;
+}
+
+/*Animation-----------------------------------------------------*/
 @keyframes movingtext{
     0%{
         color:red;
@@ -84,14 +94,18 @@ strong {
     }
 }
 
-.whatif {
-    font-size:20px;
-    text-align:center;
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
-.bodyclass {
-    font-size:15px;
-}
 
 /*A-frame*/
 
@@ -100,7 +114,7 @@ a-scene {
   width: 300px;
 }
 
-/*Responsive Web Design*/
+/*Responsive Web Design ----------------------------------------*/
 
 @media (min-width: 768px) {
     .customh1 {
@@ -131,5 +145,13 @@ a-scene {
     
     .bodyclass {
         font-size:20px;
+    }
+    
+    .context{
+        padding:120px;
+    }
+    
+    .missuemfix {
+        padding:120px;
     }
 }
