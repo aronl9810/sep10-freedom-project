@@ -34,6 +34,8 @@ body {
 
 .navbar-collapse {
     flex-grow:0;!important
+    text-align:center;
+    margin:auto;
 }
 
 strong {
@@ -205,5 +207,9 @@ a-scene {
     
     .apps{
         padding:120px;
+    }
+    
+    .navbar-brand{
+        position: absolute;
     }
 }
