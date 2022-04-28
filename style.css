@@ -26,6 +26,16 @@ body {
     text-align:center;
 }
 
+.missuemfix2 {
+    border-style:solid;
+    background:white;
+    text-align:center;
+}
+
+.navbar-collapse {
+    flex-grow:0;!important
+}
+
 strong {
     animation-name:movingtext;
     animation-duration:5s;
@@ -49,7 +59,7 @@ strong {
 }
 
 .atext {
-    animation:atextcolor 2s ease infinite;
+    color:#00e016;
 }
 
 .container {
@@ -59,6 +69,12 @@ strong {
 .apps {
     border-style:solid;
     background:orange;
+}
+
+.apps2 {
+    border-style:solid;
+    background:white;
+    padding:20px;
 }
 
 .center{
@@ -129,23 +145,6 @@ strong {
     }
 }
 
-@keyframes atextcolor {
-    0% {
-        color:black;
-    }
-    
-    25% {
-        color:black;
-    }
-    
-    75 {
-        color:white;
-    }
-
-    100% {
-        color:white;
-    }
-}
 
 /*A-frame-------------------------------------------------------*/
 
