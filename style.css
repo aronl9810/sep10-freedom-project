@@ -42,8 +42,14 @@ strong {
 .container-border{
     border-style:solid;
     margin-bottom:20px;
-    background:white;
+    background:linear-gradient(-90deg, #000000, #FFFFFF);
+    background-size: 400% 400%;
+    animation:conborder 5s ease infinite;
     border-color:white;
+}
+
+.atext {
+    animation:atextcolor 2s ease infinite;
 }
 
 .container {
@@ -111,6 +117,35 @@ strong {
     }
 }
 
+@keyframes conborder {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes atextcolor {
+    0% {
+        color:black;
+    }
+    
+    25% {
+        color:black;
+    }
+    
+    75 {
+        color:white;
+    }
+
+    100% {
+        color:white;
+    }
+}
 
 /*A-frame-------------------------------------------------------*/
 
