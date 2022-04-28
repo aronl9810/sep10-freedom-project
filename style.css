@@ -107,7 +107,7 @@ strong {
 }
 
 
-/*A-frame*/
+/*A-frame-------------------------------------------------------*/
 
 a-scene {
   height: 300px;
@@ -128,6 +128,10 @@ a-scene {
     .whatif {
         font-size:20px;
     }  
+    
+    .topic {
+        padding:150px;
+    }
 }
 
 @media (min-width: 1200px) {
