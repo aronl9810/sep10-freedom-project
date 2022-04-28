@@ -16,6 +16,10 @@ body {
     background-size: cover;
 }
 
+.context {
+    text-align:center;
+}
+
 .missuemfix {
     border-style:solid;
     background:lightblue;
@@ -74,6 +78,7 @@ strong {
 .bodyclass {
     font-size:15px;
 }
+
 
 /*Animation-----------------------------------------------------*/
 @keyframes movingtext{
@@ -153,6 +158,7 @@ a-scene {
     
     .context{
         padding:120px;
+        text-align:left;
     }
     
     .missuemfix {
