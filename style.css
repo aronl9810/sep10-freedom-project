@@ -16,6 +16,13 @@ body {
     background-size: cover;
 }
 
+.footer {
+    border-style:solid;
+    padding:50px;
+    background:#C5C5C5;
+    text-align:center;
+}
+
 .context {
     text-align:center;
 }
@@ -86,7 +93,7 @@ strong {
 
 .card {
     padding:10px;
-    margin-left:100px;
+    margin-left:30px;
 }
 
 .offcanvas-body , .offcanvas-header{
@@ -173,6 +180,10 @@ a-scene {
     .topic {
         padding:150px;
     }
+    
+    .card {
+        margin-left:10px;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -211,5 +222,9 @@ a-scene {
     
     .navbar-brand{
         position: absolute;
+    }
+    
+    .card {
+        margin-left:100px;
     }
 }
