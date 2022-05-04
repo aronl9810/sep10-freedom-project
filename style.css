@@ -29,13 +29,18 @@ body {
 
 .missuemfix {
     border-style:solid;
-    background:lightblue;
+    background:linear-gradient(-90deg, lightblue, #00e1ff);
+    background-size: 400% 400%;
+    animation:conborder 5s ease infinite;
     text-align:center;
 }
 
 .missuemfix2 {
     border-style:solid;
-    background:white;
+    background:linear-gradient(-90deg, #000000, #474747);
+    background-size: 400% 400%;
+    animation:conborder 5s ease infinite;
+    color:#0066ff;
     text-align:center;
 }
 
@@ -77,13 +82,18 @@ strong {
 
 .apps {
     border-style:solid;
-    background:orange;
+    background:linear-gradient(-90deg, #ff8c00, #fff700);
+    background-size: 400% 400%;
+    animation:conborder 5s ease infinite;
 }
 
 .apps2 {
     border-style:solid;
-    background:white;
+    background:linear-gradient(-90deg, #000000, #474747);
+    background-size: 400% 400%;
+    animation:conborder 5s ease infinite;
     padding:20px;
+    color:yellow;
 }
 
 .center{
